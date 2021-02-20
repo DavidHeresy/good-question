@@ -10,6 +10,9 @@ Welcome to Good Question!'s documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   computers/index.rst
+
+
 
 
 Indices and tables
