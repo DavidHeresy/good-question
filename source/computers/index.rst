@@ -14,3 +14,9 @@ A computer is a machine with the following five functions:
 - Arithmetic & Logic Unit
 
 TODO: Add explanation to each function.
+
+
+What is an Instruction Set?
+---------------------------
+
+TODO
