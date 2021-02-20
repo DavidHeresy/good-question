@@ -13,3 +13,4 @@ A computer is a machine with the following five functions:
 - Control
 - Arithmetic & Logic Unit
 
+TODO: Add explanation to each function.
