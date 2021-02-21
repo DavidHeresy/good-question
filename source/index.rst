@@ -21,3 +21,7 @@ Topics & Questions
    computers/index.rst
    music/index.rst
 
+
+TODO: Add Impressum and Datenschutzerklärung.
+TODO: Add german and english versions.
+
