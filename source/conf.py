@@ -46,7 +46,7 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 html_theme = "sphinx_book_theme"
-html_baseurl = 'good-question.davidheresy.de'
+html_baseurl = 'https://davidheresy.de/good-question/'
 
 
 # Add any paths that contain custom static files (such as style sheets) here,
