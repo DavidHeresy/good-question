@@ -120,4 +120,3 @@ Eine Tonleiter ist eine Auswahl von n Tönen aus der 12-Tonleiter einer Oktave.
 - Ganztonleiter (6-Tonleiter)
 - Chromatische (12-Tonleiter)
 
-
