@@ -7,15 +7,15 @@ Was ist Frequenz?
 TODO: Logarithmischer Frequenzbereich.
 
 
-## Was ist Ton?
----------------
+Was ist Ton?
+------------
 
 Ton ist eine Funktion S(t,f) welche zu einem Zeitpunkt t und einer Frequenz f
 eine Lautstärke S(t,f) zuordnet. Die Frequenz f ist dabei die Tonhöhe.
 
 
-## Was ist Musik?
------------------
+Was ist Musik?
+--------------
 
 Musik ist Ton mit einem Muster. Bei einer festen Frequenz f hat Musik ein
 Muster über die Zeit t, zu einem festen Zeitpunkt t hat Musik ein Muster über
