@@ -4,5 +4,6 @@ export GIT_ROOT="$(git root)"
 
 alias install="pip install -r requirements.txt"
 alias build="sh $GIT_ROOT/scripts/build.sh"
+alias todos="sh $GIT_ROOT/scripts/todos.sh"
 
 source venv/bin/activate
