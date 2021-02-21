@@ -1,9 +1,9 @@
 Computers
-=========
+===============================================================================
 
 
 What is a Computer?
--------------------
+-------------------------------------------------------------------------------
 
 A computer is a machine with the following five functions:
 
@@ -16,44 +16,34 @@ A computer is a machine with the following five functions:
 TODO: Add explanation to each function.
 
 
-What is Hardware?
------------------
-
-TODO: Answer question.
+TODO: What is Hardware?
+-------------------------------------------------------------------------------
 
 
-What is Software?
------------------
-
-TODO: Answer question.
+TODO: What is Software?
+-------------------------------------------------------------------------------
 
 
-What is an Instruction Set?
----------------------------
-
-TODO: Answer question.
+TODO: What is an Instruction Set?
+-------------------------------------------------------------------------------
 
 
-What is the Operating System?
------------------------------
-
-TODO: Answer question.
+TODO: What is the Operating System?
+-------------------------------------------------------------------------------
 
 
-What is Kernel Space?
----------------------
-
-TODO: Answer question.
+TODO: What is a Kernel?
+-------------------------------------------------------------------------------
 
 
-What is User Space?
--------------------
+TODO: What is Kernel Space?
+-------------------------------------------------------------------------------
 
-TODO: Answer question.
+
+TODO: What is User Space?
+-------------------------------------------------------------------------------
 
 
 What is a Protocol?
--------------------
-
-TODO: Answer question.
+-------------------------------------------------------------------------------
 
