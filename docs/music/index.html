@@ -1,0 +1,365 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music &#8212; Good Question!</title>
+    
+  <link rel="stylesheet" href="../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="../_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="../_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.d3f166471bb80abb5163.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <link rel="canonical" href="https://davidheresy.de/good-question/music/index.html" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Computers" href="../computers/index.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+<!-- Opengraph tags -->
+<meta property="og:url"         content="https://davidheresy.de/good-question/music/index.html" />
+<meta property="og:type"        content="article" />
+<meta property="og:title"       content="Music" />
+<meta property="og:description" content="Music  Was ist Frequenz?  TODO: Logarithmischer Frequenzbereich.  ## Was ist Ton?  Ton ist eine Funktion S(t,f) welche zu einem Zeitpunkt t und einer Frequenz f" />
+
+
+<meta name="twitter:card" content="summary" />
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="../index.html">
+  
+  
+  <h1 class="site-logo" id="site-title">Good Question!</h1>
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="current nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../computers/index.html">
+   Computers
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Music
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Theme by the <a href="https://ebp.jupyterbook.org">Executable Book Project</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/music/index.rst.txt"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.rst</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+        <!-- Source interaction buttons -->
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#was-ist-frequenz">
+   Was ist Frequenz?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#was-ist-ton">
+   ## Was ist Ton?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#was-ist-musik">
+   ## Was ist Musik?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#was-ist-der-kammerton">
+   Was ist der Kammerton?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#was-sind-oktaven">
+   Was sind Oktaven?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#was-ist-ein-halbtonschritt">
+   Was ist ein Halbtonschritt?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#was-sind-noten">
+   Was sind Noten?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#was-ist-ein-ganztonschritt">
+   Was ist ein Ganztonschritt?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#was-ist-ein-musikalischer-ton">
+   Was ist ein musikalischer Ton?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#was-ist-ein-soundfont">
+   Was ist ein SoundFont?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#was-ist-ein-n-ton">
+   Was ist ein n-Ton?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#was-ist-eine-melodie">
+   Was ist eine Melodie?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#was-ist-eine-n-tonleiter">
+   Was ist eine n-Tonleiter?
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="music">
+<h1>Music<a class="headerlink" href="#music" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="was-ist-frequenz">
+<h2>Was ist Frequenz?<a class="headerlink" href="#was-ist-frequenz" title="Permalink to this headline">¶</a></h2>
+<p>TODO: Logarithmischer Frequenzbereich.</p>
+</div>
+<div class="section" id="was-ist-ton">
+<h2>## Was ist Ton?<a class="headerlink" href="#was-ist-ton" title="Permalink to this headline">¶</a></h2>
+<p>Ton ist eine Funktion S(t,f) welche zu einem Zeitpunkt t und einer Frequenz f
+eine Lautstärke S(t,f) zuordnet. Die Frequenz f ist dabei die Tonhöhe.</p>
+</div>
+<div class="section" id="was-ist-musik">
+<h2>## Was ist Musik?<a class="headerlink" href="#was-ist-musik" title="Permalink to this headline">¶</a></h2>
+<p>Musik ist Ton mit einem Muster. Bei einer festen Frequenz f hat Musik ein
+Muster über die Zeit t, zu einem festen Zeitpunkt t hat Musik ein Muster über
+die Frequenz f. Musik ist Kunst mit Ton.</p>
+</div>
+<div class="section" id="was-ist-der-kammerton">
+<h2>Was ist der Kammerton?<a class="headerlink" href="#was-ist-der-kammerton" title="Permalink to this headline">¶</a></h2>
+<p>Der Kammerton bezeichnet die Frequenz 440Hz. Er wird meistens als A4
+bezeichnet.</p>
+</div>
+<div class="section" id="was-sind-oktaven">
+<h2>Was sind Oktaven?<a class="headerlink" href="#was-sind-oktaven" title="Permalink to this headline">¶</a></h2>
+<p>Eine Erhöhung um eine Oktave ist eine Verdopplung der Frequenz,
+bzw. eine Halbierung der Wellenlänge.
+Der Frequenzbereich wird damit in diskrete Abschnitte eingeteilt.
+Der Kammerton A4 liegt in der Oktave 4,
+welche von 261.6256 Hz bis 523.2511 Hz geht.</p>
+</div>
+<div class="section" id="was-ist-ein-halbtonschritt">
+<h2>Was ist ein Halbtonschritt?<a class="headerlink" href="#was-ist-ein-halbtonschritt" title="Permalink to this headline">¶</a></h2>
+<p>Eine Erhöhung um einen Halbtonschritt ist ein Erhöhung der Frequenz um
+die zwölfte Wurzel von 2. Eine Oktave wird damit in 12 Halbtonschritte
+weiter diskretisiert.</p>
+</div>
+<div class="section" id="was-sind-noten">
+<h2>Was sind Noten?<a class="headerlink" href="#was-sind-noten" title="Permalink to this headline">¶</a></h2>
+<p>In einer Oktave n liegen 12 Töne, welche jeweils um einen Halbtonschritt
+auseinander liegen:</p>
+<p>C       (weiß)
+C#/Db   (schwarz)
+D       (weiß)
+D#/Eb   (schwarz)
+E       (weiß)
+F       (weiß)
+F#/Gb   (schwarz)
+G       (weiß)
+G#/Ab   (schwarz)
+A       (weiß)
+A#/Bb   (schwarz)
+B       (weiß)</p>
+</div>
+<div class="section" id="was-ist-ein-ganztonschritt">
+<h2>Was ist ein Ganztonschritt?<a class="headerlink" href="#was-ist-ein-ganztonschritt" title="Permalink to this headline">¶</a></h2>
+<p>Eine Erhöhung um einen Ganztonschritt ist eine Erhöhung der Frequenz um
+die sechste Wurzel von 2, also um 2 Halbtonschritte.</p>
+</div>
+<div class="section" id="was-ist-ein-musikalischer-ton">
+<h2>Was ist ein musikalischer Ton?<a class="headerlink" href="#was-ist-ein-musikalischer-ton" title="Permalink to this headline">¶</a></h2>
+<p>Ein musikalischer Ton stellt eine Note auditorisch dar.
+Dominant ist die Frequenz der Note (z.B. 440Hz für A4),
+es kann sich aber um ein belibiges zeitliches Frequenzgemisch S(f,t) handeln.</p>
+</div>
+<div class="section" id="was-ist-ein-soundfont">
+<h2>Was ist ein SoundFont?<a class="headerlink" href="#was-ist-ein-soundfont" title="Permalink to this headline">¶</a></h2>
+<p>Ein SoundFont stellt musikalische Töne für alle Noten dar.
+Ein analoges Musikinstrument spielt einen baulich festgelegten SoundFont.</p>
+</div>
+<div class="section" id="was-ist-ein-n-ton">
+<h2>Was ist ein n-Ton?<a class="headerlink" href="#was-ist-ein-n-ton" title="Permalink to this headline">¶</a></h2>
+<p>Ein n-Ton besteht aus n Tönen, welche zur gleichen Zeit gespielt werden.
+Ein 2-Ton ist ein Interval, ab einem 3-Ton spricht man von einem Akkord.</p>
+<ul class="simple">
+<li><p>Dur-Akkord (3-Ton)</p></li>
+<li><p>Mol-Akkord</p></li>
+</ul>
+</div>
+<div class="section" id="was-ist-eine-melodie">
+<h2>Was ist eine Melodie?<a class="headerlink" href="#was-ist-eine-melodie" title="Permalink to this headline">¶</a></h2>
+<p>Eine Melodie ist eine zeitliche Folge von Noten.</p>
+</div>
+<div class="section" id="was-ist-eine-n-tonleiter">
+<h2>Was ist eine n-Tonleiter?<a class="headerlink" href="#was-ist-eine-n-tonleiter" title="Permalink to this headline">¶</a></h2>
+<p>Eine Tonleiter ist eine Auswahl von n Tönen aus der 12-Tonleiter einer Oktave.</p>
+<ul class="simple">
+<li><p>Dur (8-Tonleiter)</p></li>
+<li><p>Mol (8-Tonleiter)</p></li>
+<li><p>Pentaton (5-Tonleiter)</p></li>
+<li><p>Blues (8-Tonleiter)</p></li>
+<li><p>Ganztonleiter (6-Tonleiter)</p></li>
+<li><p>Chromatische (12-Tonleiter)</p></li>
+</ul>
+</div>
+</div>
+
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="../computers/index.html" title="previous page">Computers</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By David Härer<br/>
+        
+            &copy; Copyright 2021, David Härer.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="../_static/js/index.d3f166471bb80abb5163.js"></script>
+
+
+    
+  </body>
+</html>
