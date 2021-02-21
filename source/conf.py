@@ -47,6 +47,7 @@ exclude_patterns = []
 #
 html_theme = "sphinx_book_theme"
 html_baseurl = 'https://davidheresy.de/good-question/'
+html_title = "Good Question!"
 
 
 # Add any paths that contain custom static files (such as style sheets) here,
