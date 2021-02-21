@@ -1,7 +1,11 @@
 Welcome to Good Question!
 =========================
 
-A collection of good questions with an attempt to answer them.
+*A collection of questions with an attempt to answer them.*
+
+
+Topics & Questions
+------------------
 
 .. toctree::
    :maxdepth: 2
