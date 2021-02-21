@@ -1,4 +1,4 @@
 #!/bin/sh
 
-sphinx-build -b html source docs
+sphinx-build -a -b html source docs
 
