@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Good Question!'s documentation!
-==========================================
+Welcome to Good Question!
+=========================
 
 .. toctree::
    :maxdepth: 2
