@@ -7,3 +7,4 @@ alias build="sh $GIT_ROOT/scripts/build.sh"
 alias todos="sh $GIT_ROOT/scripts/todos.sh"
 
 source venv/bin/activate
+
