@@ -12,12 +12,3 @@ Welcome to Good Question!
 
    computers/index.rst
 
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
