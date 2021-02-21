@@ -7,4 +7,5 @@ A collection of good questions with an attempt to answer them.
    :maxdepth: 2
 
    computers/index.rst
+   music/index.rst
 
