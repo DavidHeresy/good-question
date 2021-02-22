@@ -32,16 +32,26 @@ TODO: What is the Operating System?
 -------------------------------------------------------------------------------
 
 
-TODO: What is a Kernel?
+What is a Kernel?
 -------------------------------------------------------------------------------
 
+The Kernel is the software of an operating system, that manages the computers 
+memory and other critical resources.
 
-TODO: What is Kernel Space?
+
+What is Kernel Space?
 -------------------------------------------------------------------------------
 
+The Kernel Space is the area of the computers memory, where the Kernel operates.
+TODO: This refers to RAM, right?
 
-TODO: What is User Space?
+
+What is User Space?
 -------------------------------------------------------------------------------
+
+The User Space is the area of the computers memory, where non-Kernel software
+operates.
+TODO: This refers to RAM, right?
 
 
 TODO: What is a Protocol?
