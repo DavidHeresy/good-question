@@ -46,7 +46,7 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 html_theme = "sphinx_book_theme"
-html_baseurl = 'https://davidheresy.de/good-question/'
+html_baseurl = "good-question"
 html_title = "Good Question!"
 
 
