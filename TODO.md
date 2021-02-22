@@ -12,9 +12,8 @@
 - [ ] [What is Software?](source/computers/index.rst)
 - [ ] [What is an Instruction Set?](source/computers/index.rst)
 - [ ] [What is the Operating System?](source/computers/index.rst)
-- [ ] [What is a Kernel?](source/computers/index.rst)
-- [ ] [What is Kernel Space?](source/computers/index.rst)
-- [ ] [What is User Space?](source/computers/index.rst)
+- [ ] [This refers to RAM, right?](source/computers/index.rst)
+- [ ] [This refers to RAM, right?](source/computers/index.rst)
 - [ ] [What is a Protocol?](source/computers/index.rst)
 
 ## Music
