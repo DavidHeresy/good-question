@@ -1,12 +1,5 @@
 # Issues
 
-## [issues.sh](issues.sh)
-
-- [ ] [TODO#L3](issues.sh#L3): Use more general shebang.
-- [ ] [TODO#L4](issues.sh#L4): Use bash strict mode.
-- [ ] [IDEA#L7](issues.sh#L7): Add support for `.issuesrc` config file.
-- [ ] [IDEA#L21](issues.sh#L21): Add support for `--ignore-issue` comments for lines to ignore.
-
 ## [source/computers/index.rst](source/computers/index.rst)
 
 - [ ] [TODO#L16](source/computers/index.rst#L16): Add explanation to each function.
