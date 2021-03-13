@@ -4,7 +4,8 @@ export GIT_ROOT="$(git root)"
 
 alias install="pip install -r requirements.txt"
 alias build="sh $GIT_ROOT/scripts/build.sh"
-alias todos="sh $GIT_ROOT/scripts/todos.sh"
+alias issues="bash $GIT_ROOT/issues.sh"
+alias update-issues="wget https://raw.githubusercontent.com/DavidHeresy/git-issues/main/issues.sh"
 
 source venv/bin/activate
 
